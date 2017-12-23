@@ -1,5 +1,6 @@
 .dashboard__container {
-  color: blue; }
+  color: green;
+  font-family: sans-serif; }
 
 body, html {
   margin: 0;

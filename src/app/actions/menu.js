@@ -1,4 +1,4 @@
-const navigate = (page) => {
+export const navigate = (page) => {
   return {
     type: 'NAVIGATE',
     page

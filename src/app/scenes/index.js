@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { navigate } from '../actions/menu';
 
 import Dashboard from './Dashboard';
 
 class RootScene extends Component {
 
   render() {
-    const { menu } = this.props;
+    const { page } = this.props.menu;
 
-    switch(menu) {
+    switch(page) {
       case 'DASHBOARD':
         return <Dashboard />
       default:
         return <Dashboard />
     }
-
   }
 
 }

@@ -1,19 +1,13 @@
 const initialState = {
-  ruleBook: null,
-  password: '',
+  page: 'DASHBOARD'
 };
 
 export default (state = initialState, action = {}) => {
   switch(action.type) {
-    case 'SET_RULE_BOOK':
+    case 'NAVIGATION':
       return {
         ...state,
-        ruleBook: action.data
-      }
-    case 'SET_PASSWORD':
-      return {
-        ...state,
-        password: action.data
+        page: action.data.page
       }
     default:
       return state;

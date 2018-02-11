@@ -1,23 +1,6 @@
-@import "./components/launch";
-@import "./components/chat";
-@import "./components/switch";
-@import "./components/user";
-@import "./components/drawer";
-@import "./components/settings";
-@import "./components/squarebutton";
-@import "./components/toggleinputfield";
-
-@import "./lib/fontawesome/css/font-awesome.css";
-@import "./lib/animate/animate.css";
+@import "./components/dashboard";
 
 body, html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
-
-input {
-  border: 2px solid #a6a6a6;
-  border-radius: 5px;
-  padding: 5px;
 }

@@ -1,0 +1,24 @@
+.user {
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  &__name {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+
+  &__color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #a6a6a6;
+    margin-right: 10px;
+  }
+
+}

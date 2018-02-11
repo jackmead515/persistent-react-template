@@ -1,0 +1,35 @@
+.squarebutton {
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 2px outset #a6a6a6;
+  }
+
+  &__button:hover {
+    cursor: pointer;
+  }
+
+  &__button:active {
+    border: 2px inset #a6a6a6;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(71,71,71,1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(71,71,71,1);
+    box-shadow: inset 0px 0px 10px 0px rgba(71,71,71,1);
+    background-color: #2196F3;
+  }
+
+  &__title {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+}

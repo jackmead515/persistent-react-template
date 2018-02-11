@@ -1,3 +1,6 @@
-import menu from './menu';
+import rule from './rule';
+import room from './room';
+import settings from './settings';
+import error from './error';
 
-export default { menu }
+export default { rule, room, settings, error }
